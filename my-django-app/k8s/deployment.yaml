@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: django-app
-        image: gcr.io/PROJECT_ID/django-app:latest
+        image: gcr.io/my-django-app-465602/django-app:latest
         ports:
         - containerPort: 8000
         env:
